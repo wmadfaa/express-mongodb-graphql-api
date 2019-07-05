@@ -1,0 +1,32 @@
+{
+  "name": "express_mongo_graphql_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/server",
+    "start:env": "node --require dotenv/config dist/server",
+    "build": "webpack --config webpack/webpack.$NODE_ENV.js",
+    "prod": "NODE_ENV=production npm run build && npm run start:env",
+    "dev": "NODE_ENV=development npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.6.7",
+    "dotenv": "^8.0.0",
+    "graphql": "^14.4.2"
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.9",
+    "webpack-node-externals": "^1.7.2",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-merge": "^4.2.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "clean-webpack-plugin": "^3.0.0"
+  }
+}
