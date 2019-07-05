@@ -149,12 +149,24 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/graphql-iso-date@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@types/graphql-iso-date/-/graphql-iso-date-3.3.1.tgz#dbb540ae62c68c00eba1d1feb4602d7209257e9d"
+  integrity sha512-x64IejUTqiiC2NGMgMYVOsKgViKknfnhzJHS8pMiYdDqbR5Fd9XHAkujGYvAOBkjFB6TDunY6S8uLDT/OnrKBA==
+  dependencies:
+    "@types/graphql" "*"
+
 "@types/graphql-resolvers@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@types/graphql-resolvers/-/graphql-resolvers-0.2.0.tgz#567f5b6b571cc3d9521a474cba9bc8281099d999"
   integrity sha512-edCg6e/FGbjYb71WqAvqEMT8IWU/6pfMSUpIWWse7dpDHvod4HUqnY0aafEQR+yELAnO6c+8SvMY4Oax2AkDwg==
   dependencies:
     graphql-tools "^4.0.2"
+
+"@types/graphql@*":
+  version "14.2.2"
+  resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.2.2.tgz#10f197e6f8559c11b16d630c5e9c10c3c8e61c5e"
+  integrity sha512-okXbUmdZFMO3AYBEJCcpJFPFDkKmIiZZBqWD5TmPtAv+GHfjD2qLZEI0PvZ8IWMU4ozoK2HV2lDxWjw4LbVlnw==
 
 "@types/jsonwebtoken@^8.3.2":
   version "8.3.2"
