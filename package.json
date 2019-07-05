@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server",
-    "start:env": "node --require dotenv/config dist/server",
+    "start": "node --require dotenv/config dist/server",
     "build": "webpack --config webpack/webpack.$NODE_ENV.js",
     "prod": "NODE_ENV=production npm run build && npm run start:env",
     "dev": "NODE_ENV=development npm run build",
