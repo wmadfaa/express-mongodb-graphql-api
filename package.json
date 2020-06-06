@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.6.7",
+    "apollo-server": "^2.14.2",
     "bcrypt": "^3.0.6",
     "bcrypt-nodejs": "^0.0.3",
     "dataloader": "^1.4.0",
